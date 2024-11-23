@@ -1,0 +1,28 @@
+# Ignore common build output directories
+bin/
+out/
+target/
+
+# Ignore common dependency directories
+node_modules/
+vendor/
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+
+# Ignore sensitive data
+*.env
+*.pem
+*.key
+
+#Ignore the virtual environment
+virtualenvs/
