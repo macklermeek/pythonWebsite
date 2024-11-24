@@ -21,6 +21,7 @@ This website along with the curing simulator uses a few open source project to w
 
 ## Installation
 For django to run you will need to install python
+This will all be done in either termanial or command prompt
 
 You can install [Python 3](https://www.python.org/downloads/)
 
@@ -54,17 +55,17 @@ Now install pipenv type:
 |Windows|pip install pipenv|
 
 
-Either in the terminal or command prompt type:
+Making an directory (folder) type:
 
-|Command|All Os|
+|Os|command|
 |---|---|
-|mkdir| directoryName|
+|all|mkdir directoryName|
 
-Then type to enter the directory you just created:
+Then type to enter the directory (folder) you just created:
 
-|Command|All Os|
+|Os|Command|
 |---|---|
-|cd| directoryName|
+|all|cd directoryName|
 
 Now to use django you will need to create a virtual environment and download django within that environment type:
 
@@ -77,10 +78,32 @@ Open [Visual Studio Code](https://code.visualstudio.com/download) commonly refer
 
 Install python extension
 
-### Creating django project
+## Creating django project
 
+Make sure you are inside your directory
+We are now going to create a virtual environment for our project along with installing django within that virtual environmnet
 
+|OS|Command|
+|---|---|
+|all| pipenv install django|
 
+Now open VS code and open your project folder as well.
+
+You will now also see two file one called "Pipfile" and another called "Pipfile.loc"
+
+Now back in the terminal we will need to active the virtual environment 
+
+|OS|Command|
+|---|---|
+|all|pipenv shell|
+
+Starting a new project
+
+|OS|Command|
+|---|---|
+|all|django-admin startproject projectName .|
+
+The dot at the indicates that we want it in the directory we are currently in
 
 
 
