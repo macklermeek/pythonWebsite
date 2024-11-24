@@ -11,6 +11,7 @@
 # Tech
 This website along with the curing simulator uses a few open source project to work
 - [Python 3] - All the coding you will do and see will be in python
+- [Pipenv] -This is for virtual environments to install our application depencdies without interuppting others projects 
 - [Vs code] - This is an app to do all the coding once you feel comfortable
 - [Django] - This is a python backend for our websites
 - [MuJoCo] - Physics engine used for simulator
@@ -21,4 +22,30 @@ This website along with the curing simulator uses a few open source project to w
 For django to run you will need to install python
 
 You can install [Python 3] (https://www.python.org/downloads/)
-Once you have that download 
+Once you have that downloaded you should make a directory for your project if you do not already have one
+
+
+To make sure the download was successful type:
+python --verison
+or 
+python3 --version (Mac OS)
+
+Now install pip type:
+pip install pipenv
+or 
+pip3 install pipenv (Mac OS)
+
+
+Either in the terminal or command prompt type:
+mkdir directoryName
+
+Then type:
+cd directoryName
+
+Now to use django you will need to create a virtual environment and download django within that environment
+Type:
+
+
+
+
+
