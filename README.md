@@ -1,3 +1,4 @@
+
 # Curling Simulator onboarding website
 ## This website will serve as onbaoarding for future students or anyone curious about our research.
 ## In our research we are using a physics simulator and python. There will be interactive models throughout the page for both the physics and python.
@@ -102,6 +103,12 @@ Starting a new project
 |OS|Command|
 |---|---|
 |all|django-admin startproject projectName .|
+
+### Notes
+* You will need to active the virtual environment everytime you work on the project
+* Do not include your vitural environment into Github (.gitignore)
+
+
 
 The dot at the indicates that we want it in the directory we are currently in
 
