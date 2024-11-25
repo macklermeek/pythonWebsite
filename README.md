@@ -113,6 +113,13 @@ Starting a new project
 The dot at the indicates that we want it in the directory we are currently in
 
 
+## Activating the virtual environment
+
+In VS code you can have it activate the virtual environment everytime you the project
+Open your project and select view then command pallete 
+In the command pallete type select python interpurter 
+
+Now back in the terminal or Command shell type:
 
 
 
