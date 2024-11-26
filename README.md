@@ -132,5 +132,17 @@ Copy and paste this path into the enter interurpter path and add:
 |Mac|/bin/python|
 |Windows|\bin\python|
 
+## Python frontend 
+### To keep this project orgainzed and easier for upkeep we are choosing to stay with one language 
+
+I used [NiceGui](https://nicegui.io/) for this
+
+You can install NiceGui with these commands in the terminal or command prompt:
+-You will want to install this inside your virtual environment
+
+|OS| Command |
+|---|---|
+|Mac|pip3 install nicegui|
+|Windows|pip install nicegui|
 
 
