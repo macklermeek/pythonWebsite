@@ -121,5 +121,16 @@ In the command pallete type select python interpurter
 
 Now back in the terminal or Command shell type:
 
+|OS|Command|
+|---|---|
+|all|pipenv --venv|
+
+Copy and paste this path into the enter interurpter path and add:
+
+|OS| Command |
+|---|---|
+|Mac|/bin/python|
+|Windows|\bin\python|
+
 
 
